@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scm = new Scanner(System.in);
+        int a = scm.nextInt();
+        int b = scm.nextInt();
+        int c = scm.nextInt();
+
+        if (a > 3000 && a < 1) {
+            System.out.print("Error");
+        }
+
+        if (b > 3000 && b < 1) ;
+        {
+            System.out.print("Error");
+        }
+        if (c > 3000 && c < 1) ;
+        {
+            System.out.print("Error");
+        }
+
+
+       if(a<3000 && a>1) {
+           if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) {
+               System.out.println("true");
+           } else System.out.println("false");
+           
+       }
+        if(b % 4 == 0 && b % 100 != 0 || b % 400 == 0) {
+            System.out.println("true");
+        }
+        else System.out.println("false");
+
+        if(c % 4 == 0 && c % 100 != 0 || c % 400 == 0) {
+            System.out.println("true");
+        }
+        else System.out.println("false");
+
+        }
+    }
