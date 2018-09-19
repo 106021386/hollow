@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scm =new Scanner(System.in);
+        System.out.print("國文=");
+        int a= scm.nextInt();
+        System.out.print("英文=");
+        int b= scm.nextInt();
+        System.out.print("數學=");
+        int c= scm.nextInt();
+
+
+        System.out.println(a+b+c);
+        System.out.println((a+b+c) /3);
+
+
+    }
+}
